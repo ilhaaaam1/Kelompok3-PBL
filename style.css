@@ -114,3 +114,56 @@ footer {
     padding: 1rem;
     margin-top: auto;
 }
+
+/* TAMBAHAN UNTUK HALAMAN BARU & NAVIGASI AKTIF */
+
+/* Menandai menu navigasi yang sedang aktif */
+nav a.active {
+    color: #3498db;
+    font-weight: bold;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 4px;
+}
+
+/* Header Khusus Halaman */
+.page-header {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+    border-left: 5px solid #3498db;
+}
+
+.page-header h1 {
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+}
+
+/* Tata Letak Konten Halaman Tentang */
+.about-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.about-card {
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.about-card h2 {
+    color: #2c3e50;
+    margin-bottom: 0.75rem;
+}
+
+.about-card ul {
+    margin-left: 1.25rem;
+    margin-top: 0.5rem;
+}
+
+.about-card li {
+    margin-bottom: 0.5rem;
+}
